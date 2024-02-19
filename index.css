@@ -17,3 +17,7 @@
 .trans {
   transition: 0.5s;
 }
+
+.left-panel {
+  padding: 0px;
+}
