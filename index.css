@@ -21,3 +21,9 @@
 .left-panel {
   padding: 0px;
 }
+
+.award {
+  width: 400px;
+  height: 300px;
+  margin: 5px 0px 5px 0px;
+}
