@@ -3,18 +3,18 @@
 }
 
 .theme-text {
-  color: silver;
+  color: #C0C0C0;
 }
 
 .dark-mode {
-  background-color: #121212;
-  color: silver;
+  background-color: #0e1111;
+  color: #a9a9a9;
 }
 
 .fakeimg {
   width: 200px;
   border-radius: 50%;
-  border: 10px solid rgb(237, 237, 237);
+  border: 10px solid #838996;
 }
 
 .company-icon {
