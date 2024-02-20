@@ -2,6 +2,10 @@
   margin-top: 0px !important;
 }
 
+a.text-secondary {
+  color: rgb(33, 37, 41) !important;
+}
+
 .theme-text {
   color: #C0C0C0;
 }
@@ -17,6 +21,10 @@
 .dark-mode {
   background-color: rgb(33, 37, 41);
   color: #a9a9a9;
+}
+
+.dark-mode a.text-secondary {
+  color: #C0C0C0 !important;
 }
 
 .fakeimg {
