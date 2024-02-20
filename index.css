@@ -6,6 +6,10 @@
   color: #C0C0C0;
 }
 
+.form-switch .form-check-input:checked {
+  background-color: #838996;
+}
+
 .dark-mode .navbar {
   background-color: #0e1111 !important;
 }
