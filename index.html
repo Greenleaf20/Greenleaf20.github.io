@@ -7,10 +7,11 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
   <link rel="stylesheet" href="index.css">
-  <link rel="icon" href="images/umass-nobg.png" />
+  <link rel="icon" href="images/logos/umass-nobg.png" />
+  <script type="text/javascript" src="index.js"></script>
 </head>
 
-<body>
+<body class="dark-mode">
   <!-- Navbar -->
   <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
     <div class="container-fluid">
@@ -19,27 +20,33 @@
           <a class="nav-link active button trans" href="#about">Archana Ganesh</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link button trans" href="#projects">Projects</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link button trans" href="#experience">Experience</a>
-        </li>
-        <li class="nav-item">
           <a class="nav-link button trans" href="#education">Education</a>
         </li>
         <li class="nav-item">
           <a class="nav-link button trans" href="#academic">Teaching</a>
         </li>
         <li class="nav-item">
+          <a class="nav-link button trans" href="#experience">Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link button trans" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link button trans" href="files/Archana_Ganesh_Resume.pdf" target="_blank">Resume</a>
         </li>
-        <!-- <li class="nav-item">
+        <li class="nav-item">
           <a class="nav-link button trans" href="#awards">Awards</a>
-        </li> -->
+        </li>
         <!-- <li class="nav-item">
           <a class="nav-link disabled" href="#">Disabled</a>
         </li> -->
       </ul>
+      <div class="d-flex justify-content-end align-items-center theme-slider-container">
+        <div class="form-check form-switch">
+          <input class="form-check-input" type="checkbox" id="themeSwitch" checked>
+          <label class="form-check-label theme-text" for="themeSwitch" id="themeSwitchLabel">Dark</label>
+        </div>
+      </div>
     </div>
   </nav>
 
@@ -49,10 +56,10 @@
         <img class="fakeimg " src="images/profile-pic.png" alt="Profile" style="margin-bottom: 1.5%;"/>
         <h4 class="mt-4">Archana Ganesh</h3>
         <p>Master of Science <br> <a href="https://www.cics.umass.edu/" class="text-secondary">College of Information and Computer Sciences</a> <br> University of Massachusetts Amherst</p>
-        <p><img src="images/location-logo.svg"> Amherst, MA, USA</p>
-        <p><img src="images/email-logo.svg" class="me-2">archanaganes@umass.edu</p>
-        <p><a href="https://www.linkedin.com/in/ganesh-archana/" class="text-secondary"><img src="images/linkedin-logo.svg" class="me-2">ganesh-archana</a></p>
-        <p><a href="https://github.com/Greenleaf20" class="text-secondary"><img src="images/github-logo.svg" class="me-2">Greenleaf20</a></p>
+        <p><img src="images/svgs/location-logo-light.svg" id="location"> Amherst, MA, USA</p>
+        <p><img src="images/svgs/email-logo-light.svg" class="me-2" id="email">archanaganes@umass.edu</p>
+        <p><a href="https://www.linkedin.com/in/ganesh-archana/" class="text-secondary"><img src="images/svgs/linkedin-logo-light.svg" class="me-2" id="linkedin">ganesh-archana</a></p>
+        <p><a href="https://github.com/Greenleaf20" class="text-secondary"><img src="images/svgs/github-logo-light.svg" class="me-2" id="github">Greenleaf20</a></p>
         <hr class="d-sm-none">
       </div>
 
@@ -69,7 +76,7 @@
         <!-- UMass -->
         <div class="d-flex justify-content-between">
           <div class="d-flex">
-            <img src="images/umass.png" alt="UMass Amherst" class="company-icon" /> 
+            <img src="images/logos/umass.png" alt="UMass Amherst" class="company-icon" /> 
             <div class="d-flex ms-2">
               <h5>University of Massachusetts Amherst</h5>
               <p class="ms-1">- Master of Science in Computer Science (GPA: 3.83 / 4.0)</p>
@@ -81,11 +88,20 @@
         <!-- NITT -->
         <div class="d-flex justify-content-between">
           <div class="d-flex">
-            <img src="images/nitt.png" alt="NITT Trichy" class="company-icon" /> 
+            <img src="images/logos/nitt.png" alt="NITT Trichy" class="company-icon" /> 
+            <div class="d-flex ms-2">
+              <h5>National Institute of Technology Tiruchirappalli</h5>
+              <p class="ms-1">- Minor in Computer Science (GPA: 8.6 / 10.0)</p>
+            </div>
+          </div>
+          <em>Jan '18 - Jun '20</em>
+        </div>
+        <div class="d-flex justify-content-between">
+          <div class="d-flex">
+            <img src="images/logos/nitt.png" alt="NITT Trichy" class="company-icon" /> 
             <div class="d-flex ms-2">
               <h5>National Institute of Technology Tiruchirappalli</h5>
               <p class="ms-1">- Bachelor of Technology (GPA: 8.41 / 10.0)</p>
-              <!-- <p class="ms-1">- Minor in Computer Science and Engineering</p> -->
             </div>
           </div>
           <em>July '16 - Jun '20</em>
@@ -107,7 +123,7 @@
         <!-- Railinc Corp -->
         <div class="d-flex justify-content-between">
           <div class="d-flex">
-            <img src="images/railinc.jpg" alt="Railinc Corp" class="company-icon" /> 
+            <img src="images/logos/railinc.jpg" alt="Railinc Corp" class="company-icon" /> 
             <div class="d-flex ms-2">
               <h5>Railinc Corp</h5>
               <p class="ms-1"> - Software Engineering Intern</p>
@@ -122,7 +138,7 @@
         <!-- Citi -->
         <div class="d-flex justify-content-between">
           <div class="d-flex">
-            <img src="images/citi.jpg" alt="Citi" class="company-icon" /> 
+            <img src="images/logos/citi.jpg" alt="Citi" class="company-icon" /> 
             <div class="d-flex ms-2">
               <h5>Citi</h5>
               <p class="ms-1"> - Software Developer</p>
@@ -140,7 +156,7 @@
         <!-- Citi Intern -->
         <div class="d-flex justify-content-between">
           <div class="d-flex">
-            <img src="images/citi.jpg" alt="Citi" class="company-icon" /> 
+            <img src="images/logos/citi.jpg" alt="Citi" class="company-icon" /> 
             <div class="d-flex ms-2">
               <h5>Citi</h5>
               <p class="ms-1"> - Software Development Intern</p>
@@ -225,7 +241,7 @@
 
         <!-- -------------------------------------------------------------->
 
-        <h2 class="mt-5" id="academic">Awards</h2><hr>
+        <h2 class="mt-5" id="awards">Awards</h2><hr>
         <img class="award" src="images/awards/takes-ownership.png">
         <img class="award" src="images/awards/succeeds-together.png">
         <img class="award" src="images/awards/review-cert.png">
