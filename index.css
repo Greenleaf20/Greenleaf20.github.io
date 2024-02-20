@@ -6,8 +6,12 @@
   color: #C0C0C0;
 }
 
+.dark-mode .navbar {
+  background-color: #0e1111 !important;
+}
+
 .dark-mode {
-  background-color: #0e1111;
+  background-color: rgb(33, 37, 41);
   color: #a9a9a9;
 }
 
