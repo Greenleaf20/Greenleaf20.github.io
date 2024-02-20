@@ -1,3 +1,16 @@
+.theme-slider-container {
+  margin-top: 0px !important;
+}
+
+.theme-text {
+  color: silver;
+}
+
+.dark-mode {
+  background-color: #121212;
+  color: silver;
+}
+
 .fakeimg {
   width: 200px;
   border-radius: 50%;
@@ -23,7 +36,7 @@
 }
 
 .award {
-  width: 400px;
-  height: 300px;
+  width: 475px;
+  height: 350px;
   margin: 5px 0px 5px 0px;
 }
