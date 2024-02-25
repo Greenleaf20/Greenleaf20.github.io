@@ -67,10 +67,11 @@ a.text-secondary {
   color: #C0C0C0;
 }
 
-.video-container {
-  margin-left: 15vw;
+.video-container, .paper-container {
+  margin: 2vh 0vw 0vh 15vw;
 }
 
-.repo-link {
-  color: #4682B4;
+.repo-img {
+  height: 25px;
+  width: 25px;
 }
