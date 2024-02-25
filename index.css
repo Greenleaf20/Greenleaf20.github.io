@@ -66,3 +66,11 @@ a.text-secondary {
 .top-word {
   color: #C0C0C0;
 }
+
+.video-container {
+  margin-left: 15vw;
+}
+
+.repo-link {
+  color: #4682B4;
+}
