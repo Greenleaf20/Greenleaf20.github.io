@@ -2,6 +2,12 @@
   margin-top: 0px !important;
 }
 
+.sticky {
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
 a.text-secondary {
   color: rgb(33, 37, 41) !important;
 }
@@ -55,4 +61,8 @@ a.text-secondary {
   width: 450px;
   height: 350px;
   margin: 5px 10px 5px 0px;
+}
+
+.top-word {
+  color: #C0C0C0;
 }
