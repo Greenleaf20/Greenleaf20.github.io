@@ -67,11 +67,57 @@ a.text-secondary {
   color: #C0C0C0;
 }
 
-.video-container, .paper-container {
+/* .video-container, .paper-container {
   margin: 2vh 0vw 0vh 15vw;
+} */
+
+.video-container, .project-img, .project-img-portrait {
+  margin: 10px 0px 20px 0px
 }
 
 .repo-img {
   height: 25px;
   width: 25px;
+}
+
+.coursework {
+  margin: 5px 0px 15px 0px;
+}
+
+.project-content-with-media {
+  text-align: justify;
+  margin-top: 50px;
+}
+
+.project-content-with-media-less-space {
+  text-align: justify;
+  margin-top: 20px;
+}
+
+.project-content {
+  text-align: justify;
+  margin-bottom: 15px;
+}
+
+.project-img {
+  width: 420px;
+  height: 315px;
+  margin: 20px 0px 20px 0px;
+}
+
+.project-img-portrait {
+  width: 300px;
+  height: 475px;
+}
+
+.left-align-media {
+  float: left;
+}
+
+.right-align-media {
+  float: right;
+}
+
+.guide-details {
+  font-size: small;
 }
