@@ -246,7 +246,10 @@
               </div>
             </div>
             <div class="col-6">
-              <img src="images/projects/stock-prediction-dashboard.png" class="project-img right-align-media">
+              <!-- <img src="images/projects/stock-prediction-dashboard.png" class="project-img right-align-media"> -->
+              <iframe width="420" height="315" class="project-img right-align-media"
+                src="https://drive.google.com/file/d/1YhKnynxBedzgzpiZxm2-QTzoksC0Tsie/preview">
+              </iframe>
             </div>
           </div>
         </div>
@@ -282,6 +285,7 @@
             <h5>Student Cafeteria application 
               <a href="https://github.com/Greenleaf20/mess-application-frontend" target="_blank"><img src="images/projects/Github-Logo-No-Background.png" class="repo-img"></a> 
               <a href="https://github.com/Greenleaf20/messiah-backend" target="_blank"><img src="images/projects/Github-Logo-No-Background.png" class="repo-img"></a>
+              <a href="files/catering-application-report.pdf" target="_blank"><img src="images/projects/pdf-no-bg.png" class="repo-img"></a> 
             </h5>
           </div>
           <em>Feb '20</em>
@@ -290,10 +294,11 @@
           <div class="row">
             <div class="col-6">
               <div class="project-content-with-media">
-                <ul>
+                I developed this application during a campus wide Hackathon at the National Institute of Technology Tiruchirappalli in 2020. During this period, in the dining halls, caterers manually recorded and marked students' attendance using physical cards. This process proved inconvenient, as students occasionally forgot to bring their cards. Students consistently carried their phones, prompting us to develop a mobile application for meal check-ins at the dining halls. This not only ensured convenience for students but also facilitated easier attendance tracking for caterers. Moreover, it provided a valuable tool for analyzing food consumption patterns and minimizing wastage. I designed the application using React Native and Django. The application has a QR generator for the students and a corresponding scanner for the caterers. Both the parties had a dashboard where they can view/edit schedule correspondingly and also send/receive feedback. I also employed Holt-Winters forecasting for predicting food wastage.
+                <!-- <ul>
                   <li>Designed a mobile application using React Native for cafeteria management to keep track of schedule and feedback</li>
-                  <li>Implemented API endpoints, database schema using Django, and employed Holt-Winters forecasting for predicting food wastage</li>
-                </ul>   
+                  <li>Implemented API endpoints, database schema using Django, and employed Holt-Winters forecasting for predicting food wastage</li> 
+                </ul>    -->
               </div>
             </div>
             <div class="col-6">
@@ -312,26 +317,45 @@
           </div>
           <em>Jan '20 - May '20</em>
         </div>
-        <ul>
-          <li>Developed a simulation environment of the servo based ball and beam system using Python and OpenAI gym</li>
-          <li>Trained the system using PPO2 and DDPG algorithms with a maximum reward of 0.99 on a scale of 0 to 1</li>
-          <li>Published in IEEE International Conference on Industrial and Information Systems 2020</li>
-        </ul>
-        <!-- <object data="files/Archana_Ganesh_Publication.pdf" 
-        width="420" height="315" class="paper-container"> 
-          <img src="images/projects/pdf-no-bg.jpg" class="repo-img">
-        </object> -->
+        <!-- <em class="guide-details">Guided by Prof. Dhanalakshmi K, IEEE Senior Member</em> -->
+        <div class="container">
+          <div class="row">
+            <div class="col-6">
+              <img src="images/projects/ball-beam-system.png" class="project-img left-align-media">
+              <!-- <object data="files/Archana_Ganesh_Publication.pdf" 
+              width="420" height="315" class="paper-container"> 
+                <img src="images/projects/pdf-no-bg.jpg" class="repo-img">
+              </object> -->
+            </div>
+            <div class="col-6">
+              <div class="project-content-with-media-less-space">
+                <!-- <ul>
+                  <li>Developed a simulation environment of the servo based ball and beam system using Python and OpenAI gym</li>
+                  <li>Trained the system using PPO2 and DDPG algorithms with a maximum reward of 0.99 on a scale of 0 to 1</li>
+                  <li>Published in IEEE International Conference on Industrial and Information Systems 2020</li>
+                </ul> -->
+                I worked on this project as part of my thesis when I pursued my Bachelor's degree in Instrumentation and Control Engineering with a minor in Computer Science. I chose this project as it is a perfect blend of both my degrees as I used Reinforcement Learning to control a ball and beam system. I developed a simulation environment of the servo based ball and beam system using Python and OpenAI gym. I trained the system using PPO2 and DDPG algorithms and was able to achieve a maximum reward of 0.99 on a scale of 0 to 1. The system was able to handle disturbances as well and was to able to stabilize. My work on this was published in the IEEE International Conference on Industrial and Information Systems in 2020.
+              </div>
+            </div>
+          </div>
+        </div>
 
         <div class="d-flex justify-content-between">
           <div class="d-flex">    
-            <h5>Genome sequence analysis using Machine Learning</h5>
+            <h5>
+              Genome sequence analysis using Machine Learning
+              <a href="files/genome-analysis-manuscript.pdf" target="_blank"><img src="images/projects/pdf-no-bg.png" class="repo-img"></a> 
+            </h5>
           </div>
           <em>Dec '19 - May '20</em>
         </div>
-        <ul>
+        <div class="project-content">
+          I was involved in this project when the COVID-19 had just started and was becoming a global threat. At the time, the virus was fairly new to the scientific world and the genome composition of it was relatively unknown. The goal of the project was to compare the genome of the Coronavirus with that of other respiratory diseases and draw knowledge from that. I trained LSTM, CNN and CNN-LSTM hybrid models on 8 respiratory diseases using Python and achieved a maximum accuracy of 99.71%. I used this model to analyze the genome sequence of the Coronavirus by leveraging Transfer Learning.
+        </div>
+        <!-- <ul>
           <li>Trained CNN-LSTM hybrid model using Python on 8 respiratory diseases' dataset and achieved an accuracy of 99.71%</li>
           <li>Used the models to analyze the genome sequence of Coronavirus by leveraging Transfer Learning </li>
-        </ul>
+        </ul> -->
 
         <div class="d-flex justify-content-between">
           <div class="d-flex">    
@@ -341,10 +365,13 @@
           </div>
           <em>Oct '19</em>
         </div>
-        <ul>
+        <div class="project-content">
+          I created this application as a part of Big Data Analytics course in Fall 2019. I analyzed Uber rides data in New York City to determine how time and day influenced the frequency of the rides. I used MapReduce algorithm of Hadoop to process 4.3 million records and also used multi-threaded mapper classes to speed uf the process by 20%. The trends from this data could be useful for Uber and other ride-hailing services, enabling them to anticipate and optimize usage patterns effectively. 
+        </div>
+        <!-- <ul>
           <li>Analyzed Uber rides data in NYC to determine how time and day influenced the frequency of rides</li>
           <li>Used MapReduce algorithm of Hadoop to process 4.3M records and multi-threaded mapper classes to speed up the process by 20%</li>
-        </ul>
+        </ul> -->
 
         <!-- -------------------------------------------------------------->
 
