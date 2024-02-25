@@ -13,7 +13,7 @@
 
 <body class="dark-mode">
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky">
     <div class="container-fluid">
       <ul class="navbar-nav">
         <li class="nav-item">
@@ -55,11 +55,11 @@
       <div class="col-sm-2 justify-content-center left-panel" >
         <img class="fakeimg " src="images/profile-pic.png" alt="Profile" style="margin-bottom: 1.5%;"/>
         <h4 class="mt-4">Archana Ganesh</h3>
-        <p>Master of Science <br> <a href="https://www.cics.umass.edu/" class="text-secondary">College of Information and Computer Sciences</a> <br> University of Massachusetts Amherst</p>
+        <p>Master of Science <br> <a href="https://www.cics.umass.edu/" class="text-secondary" target="_blank">College of Information and Computer Sciences</a> <br> University of Massachusetts Amherst</p>
         <p><img src="images/svgs/location-logo-light.svg" id="location"> Amherst, MA, USA</p>
         <p><img src="images/svgs/email-logo-light.svg" class="me-2" id="email">archanaganes@umass.edu</p>
-        <p><a href="https://www.linkedin.com/in/ganesh-archana/" class="text-secondary"><img src="images/svgs/linkedin-logo-light.svg" class="me-2" id="linkedin">ganesh-archana</a></p>
-        <p><a href="https://github.com/Greenleaf20" class="text-secondary"><img src="images/svgs/github-logo-light.svg" class="me-2" id="github">Greenleaf20</a></p>
+        <p><a href="https://www.linkedin.com/in/ganesh-archana/" class="text-secondary" target="_blank"><img src="images/svgs/linkedin-logo-light.svg" class="me-2" id="linkedin">ganesh-archana</a></p>
+        <p><a href="https://github.com/Greenleaf20" class="text-secondary" target="_blank"><img src="images/svgs/github-logo-light.svg" class="me-2" id="github">Greenleaf20</a></p>
         <hr class="d-sm-none">
       </div>
 
@@ -174,6 +174,24 @@
         <h2 class="mt-5" id="projects">Projects</h2><hr>      
         <div class="d-flex justify-content-between">
           <div class="d-flex">    
+            <h5>ToneSense 
+              <a href="https://github.com/Greenleaf20/ToneSense" target="_blank"><img src="images/projects/Github-Logo-No-Background.png" class="repo-img"></a>
+            </h5>
+          </div>
+          <em>Feb '24</em>
+        </div>
+        <ul>
+          <li>Developed a web application using Angular, HTML, CSS and TypeScript to sense the sentiment behind text and audio</li>
+          <li>Used roberta-base-go_emotions model for analyzing the sentiment behind a sentence and classifying them into 28 different emotions</li>
+        </ul>
+        <div class="video-container">
+          <iframe width="420" height="315"
+          src="https://www.youtube.com/embed/ScrEfHBbiIw?mute=1">
+          </iframe>
+        </div>
+        
+        <div class="d-flex justify-content-between">
+          <div class="d-flex">    
             <h5>Stock Trading System</h5>
           </div>
           <em>Feb '23 - May '23</em>
@@ -186,29 +204,9 @@
 
         <div class="d-flex justify-content-between">
           <div class="d-flex">    
-            <h5>Elevation-based Navigation System (EleNa)</h5>
-          </div>
-          <em>Oct '22 - Dec '22</em>
-        </div>
-        <ul>
-          <li>Built a navigation system using React and JavaScript to suggest the path of minimum elevation gain between given locations</li>
-          <li>Implemented Dijkstra's and A* algorithms to find the path within a user-specified range of the distance of the shortest path</li>
-        </ul>
-
-        <div class="d-flex justify-content-between">
-          <div class="d-flex">    
-            <h5>Student Cafeteria application</h5>
-          </div>
-          <em>Feb '20</em>
-        </div>
-        <ul>
-          <li>Designed a mobile application using React Native for cafeteria management to keep track of schedule and feedback</li>
-          <li>Implemented API endpoints, database schema using Django, and employed Holt-Winters forecasting for predicting food wastage</li>
-        </ul>
-
-        <div class="d-flex justify-content-between">
-          <div class="d-flex">    
-            <h5>Stock Recommendation System</h5>
+            <h5>Stock Recommendation System 
+              <a href="https://github.com/Greenleaf20/spark-stock-market-analysis" target="_blank"><img src="images/projects/Github-Logo-No-Background.png" class="repo-img"></a>
+            </h5>
           </div>
           <em>Feb '23 - May '23</em>
         </div>
@@ -219,14 +217,50 @@
 
         <div class="d-flex justify-content-between">
           <div class="d-flex">    
-            <h5>Reinforcement Learning based control of ball-beam system</h5>
+            <h5>Elevation-based Navigation System (EleNa) 
+              <a href="https://github.com/Greenleaf20/EleNa-Frontend" target="_blank"><img src="images/projects/Github-Logo-No-Background.png" class="repo-img"></a> 
+              <a href="https://github.com/Greenleaf20/EleNa-Backend" target="_blank"><img src="images/projects/Github-Logo-No-Background.png" class="repo-img"></a>
+            </h5>
+          </div>
+          <em>Oct '22 - Dec '22</em>
+        </div>
+        <ul>
+          <li>Built a navigation system using React and JavaScript to suggest the path of minimum elevation gain between given locations</li>
+          <li>Implemented Dijkstra's and A* algorithms to find the path within a user-specified range of the distance of the shortest path</li>
+        </ul>
+
+        <div class="d-flex justify-content-between">
+          <div class="d-flex">    
+            <h5>Student Cafeteria application 
+              <a href="https://github.com/Greenleaf20/mess-application-frontend" target="_blank"><img src="images/projects/Github-Logo-No-Background.png" class="repo-img"></a> 
+              <a href="https://github.com/Greenleaf20/messiah-backend" target="_blank"><img src="images/projects/Github-Logo-No-Background.png" class="repo-img"></a>
+            </h5>
+          </div>
+          <em>Feb '20</em>
+        </div>
+        <ul>
+          <li>Designed a mobile application using React Native for cafeteria management to keep track of schedule and feedback</li>
+          <li>Implemented API endpoints, database schema using Django, and employed Holt-Winters forecasting for predicting food wastage</li>
+        </ul>        
+
+        <div class="d-flex justify-content-between">
+          <div class="d-flex">    
+            <h5>Reinforcement Learning based control of ball-beam system 
+              <a href="https://ieeexplore.ieee.org/document/9342690" target="_blank"><img src="images/projects/google-scholar-no-bg.png" class="repo-img"></a> 
+              <a href="files/Archana_Ganesh_Publication.pdf" target="_blank"><img src="images/projects/pdf-no-bg.png" class="repo-img"></a> 
+            </h5>
           </div>
           <em>Jan '20 - May '20</em>
         </div>
         <ul>
           <li>Developed a simulation environment of the servo based ball and beam system using Python and OpenAI gym</li>
           <li>Trained the system using PPO2 and DDPG algorithms with a maximum reward of 0.99 on a scale of 0 to 1</li>
+          <li>Published in IEEE International Conference on Industrial and Information Systems 2020</li>
         </ul>
+        <!-- <object data="files/Archana_Ganesh_Publication.pdf" 
+        width="420" height="315" class="paper-container"> 
+          <img src="images/projects/pdf-no-bg.jpg" class="repo-img">
+        </object> -->
 
         <div class="d-flex justify-content-between">
           <div class="d-flex">    
@@ -251,7 +285,7 @@
   </div>
 
   <div class="mt-5 p-1 bg-dark text-white text-center">
-    <p>© 2024 Archana Ganesh. Back to <a href="#" class="text-secondary">top</a>.</p>
+    <p>© 2024 Archana Ganesh. Back to <a href="#" class="top-word">top</a>.</p>
   </div>
 </body>
 </html>
