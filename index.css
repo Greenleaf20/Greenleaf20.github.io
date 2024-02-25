@@ -81,7 +81,8 @@ a.text-secondary {
 }
 
 .coursework {
-  margin: 5px 0px 15px 0px;
+  margin: 50px 0px 15px 0px;
+  text-align: justify;
 }
 
 .project-content-with-media {
@@ -120,4 +121,16 @@ a.text-secondary {
 
 .guide-details {
   font-size: small;
+}
+
+.university-img-portrait {
+  margin: 20px 0px 10px 0px;
+  width: 250px;
+  height: 300px;
+}
+
+.university-img {
+  margin: 20px 0px 30px 0px;
+  width: 400px;
+  height: 300px;
 }
