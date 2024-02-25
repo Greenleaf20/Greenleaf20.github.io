@@ -190,14 +190,25 @@
           </div>
           <em>Feb '24</em>
         </div>
-        <ul>
-          <li>Developed a web application using Angular, HTML, CSS and TypeScript to sense the sentiment behind text and audio</li>
-          <li>Used roberta-base-go_emotions model for analyzing the sentiment behind a sentence and classifying them into 28 different emotions</li>
-        </ul>
-        <div class="video-container">
-          <iframe width="420" height="315"
-          src="https://www.youtube.com/embed/ScrEfHBbiIw?mute=1">
-          </iframe>
+        <div class="container">
+          <div class="row">
+            <div class="col-6">
+              <div class="video-container left-align-media">
+                <iframe width="420" height="315"
+                src="https://www.youtube.com/embed/ScrEfHBbiIw?mute=1">
+                </iframe>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="project-content-with-media">
+                I developed this application as a part of Hack(Her)413 2024 hackathon conducted at the University of Massachusetts Amherst. It is a web based application developed by  Angular, HTML, CSS and TypeScript to sense the sentiment behind text and audio into 28 different emotions. I used a Transformer based Wav2vec2 model for speech to text conversion and the roberta-base-go_emotions model for analyzing the sentiment behind a text.
+              </div>
+              <!-- <ul>
+                <li>Developed a web application using Angular, HTML, CSS and TypeScript to sense the sentiment behind text and audio</li>
+                <li>Used roberta-base-go_emotions model for analyzing the sentiment behind a sentence and classifying them into 28 different emotions</li>
+              </ul> -->
+            </div>
+          </div>
         </div>
         
         <div class="d-flex justify-content-between">
@@ -206,11 +217,14 @@
           </div>
           <em>Feb '23 - May '23</em>
         </div>
-        <ul>
+        <div class="project-content">
+          I developed this application during the Distributed and Operating Systems course in Spring 2023. I desgined a 3-tier stock trading server using Python which can handle requests from various clients using a thread-pool model. I replicated the services and selected a leader for them using a bully leader election algorithm. The requests from the frontend is sent to the leader which then maintained consistency between the replicas in order to handle failure gracefully. I also handled leader failure by initiating re-election when the leader does not respond. I implemented a LRU cache at the top level to cache lookup requests and this led to a decrease in the latency.
+        </div>
+        <!-- <ul>
           <li>Developed a 3-tier stock trading server using Python which can handle requests from various clients using a thread-pool model</li>
           <li>Designed replication logic with bully leader election algorithm and  maintained consistency for graceful failure handling</li>
           <li>Implemented LRU caching at the top level that resulted in a 20% decrease in latency and handled leader failure through re-election</li>
-        </ul>
+        </ul> -->
 
         <div class="d-flex justify-content-between">
           <div class="d-flex">    
@@ -220,11 +234,23 @@
           </div>
           <em>Feb '23 - May '23</em>
         </div>
-        <ul>
-          <li>Developed a stock recommendation system using Python which analyzes historical data using PySpark</li>
-          <li>Used LSTM, Random Forest, and Factorization Machine models from SparkMLLib and PyTorch to predict the closing price of stocks</li>
-        </ul>
-
+        <div class="container">
+          <div class="row">
+            <div class="col-6">
+              <div class="project-content-with-media">
+                I developed this application during the Systems for Data Science course in Spring 2023. I designed a stock recommendation system using Python that analyzes historical data using PySpark. I used LSTM, Random Forest and Factorization Machine models from SparkMLLib and PyTorch to predict the closing price of stocks. Among these the LSTM model performed the best in terms of Mean Squared Error and I used it to predict the closing price. I also built a dashboard  for the users to easily view the historical trend for each stock.
+                <!-- <ul>
+                  <li>Developed a stock recommendation system using Python which analyzes historical data using PySpark</li>
+                  <li>Used LSTM, Random Forest, and Factorization Machine models from SparkMLLib and PyTorch to predict the closing price of stocks</li>
+                </ul> -->
+              </div>
+            </div>
+            <div class="col-6">
+              <img src="images/projects/stock-prediction-dashboard.png" class="project-img right-align-media">
+            </div>
+          </div>
+        </div>
+        
         <div class="d-flex justify-content-between">
           <div class="d-flex">    
             <h5>Elevation-based Navigation System (EleNa) 
@@ -234,10 +260,22 @@
           </div>
           <em>Oct '22 - Dec '22</em>
         </div>
-        <ul>
-          <li>Built a navigation system using React and JavaScript to suggest the path of minimum elevation gain between given locations</li>
-          <li>Implemented Dijkstra's and A* algorithms to find the path within a user-specified range of the distance of the shortest path</li>
-        </ul>
+        <div class="container">
+          <div class="row">
+            <div class="col-6">
+              <img src="images/projects/elena-view.png" class="project-img left-align-media">
+            </div>
+            <div class="col-6">
+              <div class="project-content-with-media">
+                I developed this application during the Theory and Practice of Software Engineering course in Fall 2022. I built a navigation system using React and JavaScript to suggest the path of minimum elevation gain between locations given by the user. I implemented Dijkstra's and A* algorithms to find a path that has the minimum elevation gain within a user-specified range of the distance of the shortest path. I also designed User Interface where user can pick the locations on the map and view the chosen path. 
+                <!-- <ul>
+                  <li>Built a navigation system using React and JavaScript to suggest the path of minimum elevation gain between given locations</li>
+                  <li>Implemented Dijkstra's and A* algorithms to find the path within a user-specified range of the distance of the shortest path</li>
+                </ul> -->
+              </div>
+            </div>
+          </div>
+        </div>
 
         <div class="d-flex justify-content-between">
           <div class="d-flex">    
@@ -248,10 +286,22 @@
           </div>
           <em>Feb '20</em>
         </div>
-        <ul>
-          <li>Designed a mobile application using React Native for cafeteria management to keep track of schedule and feedback</li>
-          <li>Implemented API endpoints, database schema using Django, and employed Holt-Winters forecasting for predicting food wastage</li>
-        </ul>      
+        <div class="container">
+          <div class="row">
+            <div class="col-6">
+              <div class="project-content-with-media">
+                <ul>
+                  <li>Designed a mobile application using React Native for cafeteria management to keep track of schedule and feedback</li>
+                  <li>Implemented API endpoints, database schema using Django, and employed Holt-Winters forecasting for predicting food wastage</li>
+                </ul>   
+              </div>
+            </div>
+            <div class="col-6">
+              <img src="images/projects/mess-application/student-view/2.png" class="project-img-portrait right-align-media">
+            </div>
+          </div>
+        </div>
+           
 
         <div class="d-flex justify-content-between">
           <div class="d-flex">    
