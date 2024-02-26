@@ -2,6 +2,10 @@
   margin-top: 0px !important;
 }
 
+#about {
+  text-align: justify;
+}
+
 .sticky {
   position: sticky;
   top: 0;
@@ -100,6 +104,11 @@ a.text-secondary {
   margin-bottom: 15px;
 }
 
+.work-project-content {
+  text-align: justify;
+  margin: 10px 0px 20px 0px;
+}
+
 .project-img {
   width: 420px;
   height: 315px;
@@ -124,7 +133,7 @@ a.text-secondary {
 }
 
 .university-img-portrait {
-  margin: 20px 0px 10px 0px;
+  margin: 20px 0px 10px 100px;
   width: 250px;
   height: 300px;
 }
