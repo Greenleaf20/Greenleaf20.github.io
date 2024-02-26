@@ -100,6 +100,11 @@ a.text-secondary {
   margin-bottom: 15px;
 }
 
+.work-project-content {
+  text-align: justify;
+  margin: 10px 0px 20px 0px;
+}
+
 .project-img {
   width: 420px;
   height: 315px;
