@@ -164,12 +164,16 @@ img:hover {
   transform: scale(1.5);
 }
 
-.wave:hover {
+.wave {
   display: inline-block;
   animation-name: wave-animation;
   animation-duration: 1s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
+}
+
+.wave:hover {
+  animation-play-state: paused;
 }
 
 @keyframes wave-animation {
@@ -178,4 +182,30 @@ img:hover {
   50% { transform: rotate(0deg); }
   75% { transform: rotate(-15deg); }
   100% { transform: rotate(0deg); }
+}
+
+.made-text {
+  font-size: large;
+}
+
+.heart {
+  display: inline-block;
+  font-size: x-large; 
+  animation: heartbeat-animation 1s infinite;
+}
+
+.heart:hover {
+  animation-play-state: paused;
+}
+
+@keyframes heartbeat-animation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
