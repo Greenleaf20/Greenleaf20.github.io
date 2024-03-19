@@ -166,13 +166,17 @@ a.text-secondary {
 
 img:hover {
   transform: scale(1.5);
-  transition-duration: 2s;
+  transition-duration: 200ms;
+}
+
+.no-zoom:hover {
+  transform: none;
 }
 
 .wave {
   display: inline-block;
   animation-name: wave-animation;
-  animation-duration: 0.5ms;
+  animation-duration: 1s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
