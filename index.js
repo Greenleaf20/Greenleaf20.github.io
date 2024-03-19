@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const linkedin = document.getElementById('linkedin');
     const github = document.getElementById('github');
     const scholar = document.getElementById('google-scholar');
+    const goodreads = document.getElementById('goodreads');
 
     themeSwitch.addEventListener('change', function() {
         if (themeSwitch.checked) {
@@ -23,6 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
         linkedin.src = "images/svgs/linkedin-logo-light.svg";
         github.src = "images/svgs/github-logo-light.svg";
         scholar.src = "images/svgs/scholar-logo-light.svg";
+        goodreads.src = "images/svgs/goodreads-logo-light.svg";
     }
 
     function disableDarkMode() {
@@ -33,5 +35,6 @@ document.addEventListener('DOMContentLoaded', function() {
         linkedin.src = "images/svgs/linkedin-logo.svg";
         github.src = "images/svgs/github-logo.svg";
         scholar.src = "images/svgs/scholar-logo.svg";
+        goodreads.src = "images/svgs/goodreads-logo.svg";
     }
 });

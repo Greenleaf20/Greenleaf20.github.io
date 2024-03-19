@@ -67,6 +67,10 @@ a.text-secondary {
   margin: 5px 30px 5px 0px;
 }
 
+.awards-div {
+  margin: 30px 0px 30px 0px;
+}
+
 .top-word {
   color: #C0C0C0;
 }
@@ -142,4 +146,75 @@ a.text-secondary {
   margin: 20px 0px 30px 0px;
   width: 400px;
   height: 300px;
+}
+
+.social-pics-div {
+  margin: 30px 0px 30px 0px;
+}
+
+.social-pics-p {
+  width: 425px;
+  height: 500px;
+  margin: 5px 30px 5px 0px;
+}
+
+.social-pics-l {
+  width: 475px;
+  height: 400px;
+  margin: 5px 30px 5px 0px;
+}
+
+img:hover {
+  transform: scale(1.5);
+  transition-duration: 200ms;
+}
+
+.no-zoom:hover {
+  transform: none;
+}
+
+.wave {
+  display: inline-block;
+  animation-name: wave-animation;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.wave:hover {
+  animation-play-state: paused;
+}
+
+@keyframes wave-animation {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(15deg); }
+  50% { transform: rotate(0deg); }
+  75% { transform: rotate(-15deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.made-text {
+  font-size: large;
+}
+
+.heart {
+  display: inline-block;
+  font-size: x-large; 
+  animation: heartbeat-animation 1s infinite;
+}
+
+.heart:hover {
+  animation-play-state: paused;
+}
+
+@keyframes heartbeat-animation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
